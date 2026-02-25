@@ -2,7 +2,7 @@ import os
 import sys
 
 # Add your project directory to the sys.path
-project_home = '/home/yourusername/apexcreatives_backend'
+project_home = '/home/RikoNaito/apexbackend'
 if project_home not in sys.path:
     sys.path.insert(0, project_home)
 
