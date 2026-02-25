@@ -1,0 +1,10 @@
+{% extends "admin/base.html" %}
+
+{% block nav-global %}
+{{ block.super }}
+<div style="padding: 10px;">
+    <a href="{% url 'admin:campaign-stats' %}" style="color: white; text-decoration: none; padding: 5px 10px; background: #562B7A; border-radius: 4px;">
+        📊 Campaign Statistics
+    </a>
+</div>
+{% endblock %}
