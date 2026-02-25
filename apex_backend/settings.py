@@ -4,12 +4,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-change-me'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'RikoNaito.pythonanywhere.com',
     'localhost',
-    '127.0.0.1'
+    '127.0.0.1',
 
 ]
 
